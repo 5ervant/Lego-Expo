@@ -1,6 +1,6 @@
 import { GLView } from 'expo-gl';
 import * as React from 'react';
-import { Renderer, TextureLoader, loadTextureAsync, THREE } from 'expo-three';
+import { Renderer } from 'expo-three';
 
 export default React.forwardRef(({ onCreate, onUpdate, ...props }, ref) => {
   let timeout;
